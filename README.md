@@ -10,9 +10,9 @@ New releases will be available automatically on <a href="http://www.jsdelivr.com
 You can install this package by using either Bower or NPM.
 
 ```
-$ npm install --save bootstrap.native
+$ npm install --save bootstrap.native--virajsoni06
 # Or
-$ bower install --save bootstrap.native
+$ bower install --save bootstrap.native--virajsoni06
 ```
 
 # Usage
@@ -100,10 +100,13 @@ Writes to stdout
 
 \*nix users can run `./build.js` as well as `node build.js`.
 
-# Contributors
+# Original Contributors
 - [Ingwie Phoenix](https://github.com/IngwiePhoenix): RequireJS/CommonJS compatibility and usability with common package managers. _Was glad to help!_
 - [Ryan Zimmerman](https://github.com/RyanZim): **Amazing** custom build script.
 - Full contributors list [here](https://github.com/thednp/bootstrap.native/graphs/contributors). Thanks so much!
+
+# Fork Contributors
+- [Viraj Soni](https://github.com/virajsoni06)
 
 # License
 The library is released under the [MIT license](https://github.com/thednp/bootstrap.native/blob/master/LICENSE).
