@@ -10,6 +10,7 @@
 
 body {
   color: #5a5a5a;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
 #main-container {padding-top: 20px;}
@@ -28,12 +29,19 @@ h3:not(.popover-title) {
 
 hr.clearfix {clear: both; width: 100%; float: left}
 
+/* colors */
+.bg-bootstrap { background-color: #563d7c }
+.bg-pink { background-color: #E91E63 }
+.bg-indigo { background-color: #673ab7 }
+.bg-purple { background-color: #9c27b0 }
+.bg-red { background-color: #e51c23 }
+
 
 /* CONTENT STYLING
 -------------------------------------------------- */
 
  /* required for scrollspy to work perfect */
-section { position: relative; display: inline-block; width: 100%; }
+ section { position: relative; display: inline-block; width: 100%; } 
 
 .scrollspy-example {
   position: relative; height: 150px; overflow: auto; margin-bottom: 20px;
@@ -79,7 +87,7 @@ p .btn, p .form-control {margin-bottom: 20px; vertical-align: top}
 #collapseExample .well {margin-bottom: 10px}
 .btn-group .btn {margin-bottom: 0}
 
-#about {padding-bottom: 20px }
+#components {padding-bottom: 20px }
 
 /* nested dropdowns */
 .dropdown-menu .dropdown-menu.left {
@@ -113,7 +121,28 @@ p .btn, p .form-control {margin-bottom: 20px; vertical-align: top}
 .navbar-collapse.collapsing {overflow-y: hidden}
 
 .navbar-nav { float: none }
+.navbar-fixed-top { padding: .5rem 0; border:0 }
+.navbar-brand { font-size: 20px }
+.navbar-brand svg { display: inline-block; vertical-align:top; margin: -8px 0 0 0 } 
+.navbar-brand span { display: inline-block; vertical-align: top }
 
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #eee;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #673ab7;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
