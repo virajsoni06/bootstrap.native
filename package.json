@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "bootstrap.native--virajsoni06",
-  "version": "2.0.15",
-=======
-  "name": "bootstrap.native",
-  "version": "2.0.22",
->>>>>>> 641148791eb03a68014b0b9857530a5a91299e56
+  "version": "2.0.16",
   "description": "Native Javascript for Bootstrap, the sweetest Javascript library without jQuery.",
   "main": "dist/bootstrap-native.js",
   "scripts": {
